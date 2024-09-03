@@ -1,1 +1,1 @@
-# http://brayancharlesetec.github.io./MeuCurriculo
+# MeuCurriculo
