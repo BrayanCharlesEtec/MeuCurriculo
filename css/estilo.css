@@ -1,0 +1,19 @@
+body {
+    background-color: #000;
+}
+
+h1 {
+    color: aquamarine;
+}
+
+p {
+    color: rgb(72, 231, 231);
+}
+
+body div li a {
+    color: rgba(47, 202, 150, 0.829);
+}
+
+h2{
+    color: aqua;
+}
