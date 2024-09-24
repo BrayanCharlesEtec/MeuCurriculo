@@ -5,176 +5,152 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/estilo.css">
     <title>Currículo</title>
 </head>
 
-body background="img/img01.jpg">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" style="font-size: large; color: cadetblue;">Meu Site</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="indexl.html">Início <span class="sr-only">(página atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="p2.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="p3.html">Serviços e contato</a>
+                    </li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+            </div>
         </div>
-      </nav>
-            
+    </nav>
+    
 
-        <main>
+    <main>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/br.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/brbrb.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/rbrbrbrb.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
 
-            <section class="mb-5">
-                <!-- Sobre mim -->
-                <h2>Sobre mim</h2>
-                <p>eeehehehehehe</p>
-            </section>
+        <section class="mb-5">
+            <h2>Sobre mim</h2>
+            <p>Novo na area de programação e computação mas busca aprender o basico do basico para poder criar algo que o ajude no futuro</p>
+        </section>
 
-            <section class="mb-5">
-                <!-- 4 Cards dos cursos -->
-                <h2>Cursos</h2>
-                <div class="row row-cols-1 row-cols-md-2 g-4">
-                    <div class="col">
-                        <div class="card">
-                            <img src="img/curso1.jpg" class="card-img-top" alt="Curso 1">
-                            <div class="card-body">
-                                <h5 class="card-title">Curso 1</h5>
-                                <p class="card-text">Descrição breve do curso 1.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="img/curso2.jpg" class="card-img-top" alt="Curso 2">
-                            <div class="card-body">
-                                <h5 class="card-title">Curso 2</h5>
-                                <p class="card-text">Descrição breve do curso 2.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="img/curso3.jpg" class="card-img-top" alt="Curso 3">
-                            <div class="card-body">
-                                <h5 class="card-title">Curso 3</h5>
-                                <p class="card-text">Descrição breve do curso 3.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="img/curso4.jpg" class="card-img-top" alt="Curso 4">
-                            <div class="card-body">
-                                <h5 class="card-title">Curso 4</h5>
-                                <p class="card-text">Descrição breve do curso 4.</p>
-                            </div>
+        <section class="mb-5">
+            <h2>Aprendizados</h2>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="img/ete.png" class="card-img-top" alt="Curso 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Cursando na Etec MCM</h5>
+                            <p class="card-text">Curso o 1° ano de Técnico para informática</p>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <section class="mb-5">
-                <!-- Accordion de competências socioemocionais -->
-                <h2>Competências Socioemocionais</h2>
-                <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Liderança
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                Tenho forte habilidade de liderar equipes em projetos complexos, mantendo foco nos resultados e no bem-estar dos integrantes.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Colaboração
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                Trabalho bem em equipe e acredito que a colaboração é essencial para o sucesso de qualquer projeto.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Resiliência
-                            </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                Mantenho a calma e a motivação mesmo diante de desafios e situações de pressão.
-                            </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="img/eyey.avif" class="card-img-top" alt="Curso 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Capacidade em HTML e Java</h5>
+                            <p class="card-text">Aprendendo a cada dia sobre as mais novas maneiras de se estudar algo</p>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <section class="mb-5">
-                <!-- Formulário de contato -->
-                <h2>Contato</h2>
-                <form>
-                    <div class="mb-3">
-                        <label for="nome" class="form-label">Nome</label>
-                        <input type="text" class="form-control" id="nome" required>
+                <div class="col">
+                    <div class="card">
+                        <img src="img/cmcm.PNG" class="card-img-top" alt="Curso 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Curso 3</h5>
+                            <p class="card-text">Descrição breve do curso 3.</p>
+                        </div>
                     </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">E-mail</label>
-                        <input type="email" class="form-control" id="email" required>
+            </div>
+        </section>
+
+        <section class="mb-5">
+            <h2>Competências Socioemocionais</h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Liderança
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Tenho forte habilidade de liderar equipes em projetos complexos, mantendo foco nos resultados e no bem-estar dos integrantes.
+                        </div>
                     </div>
-                    <div class="mb-3">
-                        <label for="mensagem" class="form-label">Mensagem</label>
-                        <textarea class="form-control" id="mensagem" rows="3" required></textarea>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Colaboração
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Trabalho bem em equipe e acredito que a colaboração é essencial para o sucesso de qualquer projeto.
+                        </div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-                </form>
-            </section>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Resiliência
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Mantenho a calma e a motivação mesmo diante de desafios e situações de pressão.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <section>
-                <!-- Informações gerais sobre o site -->
-                <h2>Desenvolvimento do Site</h2>
-                <p>Este site foi desenvolvido utilizando as tecnologias mais recentes, com foco em responsividade, acessibilidade e boas práticas de UX.</p>
-            </section>
+        <section>
+            <h2>Desenvolvimento do Site</h2>
+            <p>Desenvolvido utilizando as tecnologias mais recentes e o pensamento lógico do programador</p>
+        </section>
 
-        </main>
+    </main>
 
-        <footer class="mt-5 text-center">
-            <p>&copy; 2024 Meu Currículo. Todos os direitos reservados.</p>
-        </footer>
-    </div>
+    <footer class="mt-5 text-center">
+        <p>&copy; 2024 Meu Currículo. Todos os direitos reservados.</p>
+    </footer>
 
     <script src="js/bootstrap.js"></script>
 </body>

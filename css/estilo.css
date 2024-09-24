@@ -1,5 +1,6 @@
 body {
     background-color: #000;
+    padding-top: 70px;
 }
 
 h1 {
@@ -16,4 +17,82 @@ body div li a {
 
 h2{
     color: aqua;
+}
+
+section {
+    size: 50px;
+}
+
+.carousel-item {
+    height: 60vh;
+    background-color: #777;
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #343a40; 
+    color: white;
+    padding: 10px 0;
+}
+
+.navbar {
+    background-color: #007bff;
+    padding: 10px 0;
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #ffdd57 !important;
+}
+
+section{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+
+.card-img-top {
+    width: 150px; 
+    height: auto; 
+}
+
+.navbar .navbar-brand {
+    margin-right: auto;
+}
+
+.navbar-nav {
+    margin-right: 75px;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-right: 0;
+        flex-direction: column;
+    }
+
+    .navbar-nav .nav-item {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+.carousel-item{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 97%;
+}
+
+label {
+    color: rgb(255, 255, 255);
+}
+
+col{
+    border-color: #0783ff;
 }
